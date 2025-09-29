@@ -35,6 +35,18 @@ const productosArtesanales = [
         descripcion: "Paquete de tres jabones naturales con aceites esenciales y miel de abeja.", 
         imagen: "./images/jabon.jpg" // Ruta local actualizada
     },
+
+// --- ¡NUEVO PRODUCTO! (Mejora) ---
+    { 
+        nombre: "Mochila Wayuu Grande", 
+        precio: 65.00, 
+        descripcion: "Tejida a mano en un solo hilo, con patrones vibrantes de la cultura Wayuu.", 
+        imagen: "./images/mochila.jpg" // Ruta local actualizada
+    }
+    
+
+
+
 ];
 
 // ... (El resto del código del archivo main.js o main.ts sigue aquí)
