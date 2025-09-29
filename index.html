@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace Artesanal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Define un color temático para el Marketplace */
+        .color-artesanal {
+            background-color: #A0522D; /* Tono terroso/café */
+        }
+        .text-artesanal {
+            color: #A0522D;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <header class="color-artesanal text-white p-4 shadow-md sticky top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Mercado Artesanal</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-gray-200 transition duration-300">Inicio</a></li>
+                    <li><a href="#productos" class="hover:text-gray-200 transition duration-300">Productos</a></li>
+                    <li><a href="#" class="hover:text-gray-200 transition duration-300">Vender</a></li>
+                    <li><a href="#" class="hover:text-gray-200 transition duration-300">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto mt-12 p-4">
+        <h2 id="productos" class="text-4xl font-extrabold text-gray-800 mb-8 text-center text-artesanal">
+            Nuestros Productos Únicos
+        </h2>
+        
+        <div id="product-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <p class="col-span-full text-center text-gray-500">Cargando productos...</p>
+        </div>
+    </main>
+
+    <footer class="color-artesanal text-white p-6 mt-16">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Mercado Artesanal. Hecho con ❤️ y dedicación.</p>
+        </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+</body>
+</html>

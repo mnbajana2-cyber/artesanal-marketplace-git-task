@@ -1,0 +1,15 @@
+/*
+ * Este archivo se puede usar para estilos que no estén disponibles en Tailwind CSS
+ * o para ajustes de diseño específicos.
+ */
+
+/* Ejemplo: Define un contenedor que centra el contenido de forma más estricta */
+.container {
+    max-width: 1200px;
+}
+
+/* Estilo para que las tarjetas de producto tengan un efecto visual al pasar el ratón */
+.product-card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
