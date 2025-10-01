@@ -68,11 +68,14 @@ function renderizarProductos() {
                 <h3 class="text-xl font-bold text-gray-800">${producto.nombre}</h3>
                 <p class="text-gray-600 mt-2">${producto.descripcion}</p>
                 <div class="mt-4 flex justify-between items-center">
+                    // ... dentro de card.innerHTML ...
+
                     <span class="text-2xl font-extrabold text-artesanal">$${producto.precio.toFixed(2)}</span>
-                    <button class="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-4 rounded-full transition duration-300">
+                    <button class="bg-red-700 hover:bg-red-800 text-white font-semibold py-2 px-4 rounded-full transition duration-300">
                         Añadir al Carrito
                     </button>
                 </div>
+// ...
             </div>
         `;
         grid.appendChild(card);
